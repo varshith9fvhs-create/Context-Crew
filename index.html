@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Context Crew — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Context<span>Crew</span></a>
+      <button class="burger" id="burger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══ SECTION 1 — HERO ═══ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+    <div class="hero-orb hero-orb--3"></div>
+    <div class="hero-content">
+      <p class="hero-tag">✦ GITAM University, Hyderabad</p>
+      <h1 class="hero-title">
+        <span class="line">Context</span>
+        <span class="line accent">Crew</span>
+      </h1>
+      <p class="hero-sub">A team of CS engineers building at the intersection of<br/>
+        <em>Frontend · AI/ML · Cybersecurity · Cloud</em>
+      </p>
+      <div class="hero-cta">
+        <a href="#team" class="btn btn--primary">Meet the Team</a>
+        <a href="#projects" class="btn btn--ghost">See Projects</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <svg width="16" height="28" viewBox="0 0 16 28"><rect x="6" y="0" width="4" height="4" rx="2" fill="currentColor" opacity="0.4"><animate attributeName="y" values="0;14;0" dur="1.6s" repeatCount="indefinite"/></rect></svg>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 2 — ABOUT ═══ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">01 / About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Who We Are</h2>
+          <p>Context Crew is a trio of B.Tech Computer Science students at GITAM University, Hyderabad — each carving a distinct path through the tech landscape while collaborating, learning, and building together.</p>
+          <p>From shipping responsive UIs to training machine learning models and navigating cloud infrastructure, we bring complementary skill sets under one crew.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">3</span><span class="stat-label">Members</span></div>
+            <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Projects</span></div>
+            <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Certifications</span></div>
+            <div class="stat"><span class="stat-num">2026</span><span class="stat-label">Active</span></div>
+          </div>
+        </div>
+        <div class="about-card-stack">
+          <div class="domain-card">
+            <div class="domain-icon">⚡</div>
+            <h3>Frontend Dev</h3>
+            <p>Responsive, performant web apps with clean UI/UX.</p>
+          </div>
+          <div class="domain-card">
+            <div class="domain-icon">🤖</div>
+            <h3>AI / ML</h3>
+            <p>Machine learning pipelines, data preprocessing, and AI workflows.</p>
+          </div>
+          <div class="domain-card">
+            <div class="domain-icon">☁️</div>
+            <h3>Cloud & Security</h3>
+            <p>AWS cloud fundamentals, cybersecurity, and CTF competitions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 3 — TEAM ═══ -->
+  <section class="team section" id="team">
+    <div class="container">
+      <div class="section-label">02 / Team</div>
+      <h2 class="section-title">The Crew</h2>
+      <p class="section-sub">Three people. One mission. Infinite curiosity.</p>
+
+      <div class="team-grid">
+
+        <!-- Member 1: Yagneshwar -->
+        <article class="member-card" data-member="yagnesh">
+          <div class="member-card__header">
+            <div class="member-avatar">YG</div>
+            <div class="member-meta">
+              <h3>Yagneshwar Gangoni</h3>
+              <span class="member-role">Frontend Developer</span>
+            </div>
+            <div class="member-number">01</div>
+          </div>
+          <p class="member-bio">Motivated frontend dev with expertise in HTML, CSS, JavaScript, and Python. Passionate about building responsive, user-friendly web apps. Strong foundation in DSA and problem-solving.</p>
+          <div class="member-skills">
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">DSA</span>
+            <span class="skill-tag">LocalStorage</span>
+            <span class="skill-tag">Git</span>
+          </div>
+          <div class="member-links">
+            <a href="mailto:gangoniyagneshwar03@gmail.com" class="member-link" title="Email">✉</a>
+            <a href="#" class="member-link" title="GitHub">⌥</a>
+            <a href="#" class="member-link" title="LinkedIn">in</a>
+          </div>
+        </article>
+
+        <!-- Member 2: Varshith -->
+        <article class="member-card" data-member="varshith">
+          <div class="member-card__header">
+            <div class="member-avatar">CV</div>
+            <div class="member-meta">
+              <h3>Chatla Varshith</h3>
+              <span class="member-role">ML & Cybersecurity</span>
+            </div>
+            <div class="member-number">02</div>
+          </div>
+          <p class="member-bio">First-year CSE student passionate about Machine Learning, AI, and Cybersecurity. External Relations Head at HackOps — GITAM's cybersecurity club. Builder and community organizer.</p>
+          <div class="member-skills">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">ML</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">DSA</span>
+            <span class="skill-tag">Prompt Eng.</span>
+            <span class="skill-tag">Cybersecurity</span>
+            <span class="skill-tag">Google Colab</span>
+          </div>
+          <div class="member-links">
+            <a href="mailto:varshith9f.vhs@gmail.com" class="member-link" title="Email">✉</a>
+            <a href="https://github.com/varshith9fvhs-create" class="member-link" title="GitHub" target="_blank" rel="noopener">⌥</a>
+          </div>
+        </article>
+
+        <!-- Member 3: Hakshith -->
+        <article class="member-card" data-member="hakshith">
+          <div class="member-card__header">
+            <div class="member-avatar">HV</div>
+            <div class="member-meta">
+              <h3>Hakshith Veerath</h3>
+              <span class="member-role">AI / Cloud Engineer</span>
+            </div>
+            <div class="member-number">03</div>
+          </div>
+          <p class="member-bio">Aspiring AI Engineer with hands-on experience in Python, AWS, Linux, and ML fundamentals. Driven to build innovative solutions using Deep Learning, MLOps, and Cloud Computing.</p>
+          <div class="member-skills">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">MLOps</span>
+          </div>
+          <div class="member-links">
+            <a href="#" class="member-link" title="GitHub">⌥</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 4 — SKILLS ═══ -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label">03 / Skills</div>
+      <h2 class="section-title">Tech Stack</h2>
+      <p class="section-sub">The tools and technologies powering our work.</p>
+
+      <div class="skills-board">
+        <div class="skills-col">
+          <h4 class="skills-col-title">Languages</h4>
+          <div class="skill-bar-list">
+            <div class="skill-bar" data-pct="88"><span>JavaScript</span><div class="bar"><div class="bar-fill" style="--pct:88%"></div></div><em>88%</em></div>
+            <div class="skill-bar" data-pct="85"><span>Python</span><div class="bar"><div class="bar-fill" style="--pct:85%"></div></div><em>85%</em></div>
+            <div class="skill-bar" data-pct="80"><span>HTML5 / CSS3</span><div class="bar"><div class="bar-fill" style="--pct:80%"></div></div><em>80%</em></div>
+            <div class="skill-bar" data-pct="72"><span>C Programming</span><div class="bar"><div class="bar-fill" style="--pct:72%"></div></div><em>72%</em></div>
+          </div>
+        </div>
+        <div class="skills-col">
+          <h4 class="skills-col-title">Domains</h4>
+          <div class="skill-bar-list">
+            <div class="skill-bar" data-pct="78"><span>Machine Learning</span><div class="bar"><div class="bar-fill" style="--pct:78%"></div></div><em>78%</em></div>
+            <div class="skill-bar" data-pct="75"><span>Responsive Design</span><div class="bar"><div class="bar-fill" style="--pct:75%"></div></div><em>75%</em></div>
+            <div class="skill-bar" data-pct="70"><span>AWS Cloud</span><div class="bar"><div class="bar-fill" style="--pct:70%"></div></div><em>70%</em></div>
+            <div class="skill-bar" data-pct="65"><span>Cybersecurity</span><div class="bar"><div class="bar-fill" style="--pct:65%"></div></div><em>65%</em></div>
+          </div>
+        </div>
+        <div class="skills-col">
+          <h4 class="skills-col-title">Tools & Platforms</h4>
+          <div class="skill-tags-cloud">
+            <span class="stag">Git</span>
+            <span class="stag">GitHub</span>
+            <span class="stag">Linux</span>
+            <span class="stag">AWS</span>
+            <span class="stag">Google Colab</span>
+            <span class="stag">Docker</span>
+            <span class="stag">Kubernetes</span>
+            <span class="stag">Pygame</span>
+            <span class="stag">Vertex AI</span>
+            <span class="stag">Prompt Eng.</span>
+            <span class="stag">MLOps</span>
+            <span class="stag">DOM API</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 5 — PROJECTS ═══ -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label">04 / Projects</div>
+      <h2 class="section-title">Our Work</h2>
+      <p class="section-sub">Selected projects built by the crew.</p>
+
+      <div class="projects-grid">
+
+        <div class="proj-card">
+          <div class="proj-number">01</div>
+          <div class="proj-badge">Yagneshwar</div>
+          <h3 class="proj-title">Smart Task Manager</h3>
+          <p class="proj-desc">A full-featured task management app with creation, deletion, completion tracking, and filtering. Uses LocalStorage for persistent data — no backend needed.</p>
+          <div class="proj-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>LocalStorage</span>
+          </div>
+          <div class="proj-links">
+            <a href="#" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-number">02</div>
+          <div class="proj-badge">Yagneshwar</div>
+          <h3 class="proj-title">Personal Portfolio Website</h3>
+          <p class="proj-desc">A responsive portfolio website to showcase projects and skills. Clean design with smooth navigation and mobile-first layout.</p>
+          <div class="proj-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="proj-links">
+            <a href="#" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="proj-card proj-card--featured">
+          <div class="proj-number">03</div>
+          <div class="proj-badge">Yagneshwar</div>
+          <h3 class="proj-title">Kathify.ai</h3>
+          <p class="proj-desc">A startup concept building an AI-based platform that integrates farming with modern technology — connecting agriculture with intelligent automation.</p>
+          <div class="proj-stack">
+            <span>AI</span><span>Python</span><span>Concept Stage</span>
+          </div>
+          <div class="proj-links">
+            <a href="#" class="proj-link">Learn More →</a>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-number">04</div>
+          <div class="proj-badge">Varshith</div>
+          <h3 class="proj-title">Tic Tac Toe (Python)</h3>
+          <p class="proj-desc">Classic two-player Tic Tac Toe game built with Pygame. Smooth game loop, win detection, and interactive UI.</p>
+          <div class="proj-stack">
+            <span>Python</span><span>Pygame</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/varshith9fvhs-create" class="proj-link" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-number">05</div>
+          <div class="proj-badge">Varshith</div>
+          <h3 class="proj-title">Rock Paper Scissors</h3>
+          <p class="proj-desc">Interactive Rock-Paper-Scissors game using Pygame with animated visuals, score tracking, and smooth gameplay.</p>
+          <div class="proj-stack">
+            <span>Python</span><span>Pygame</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/varshith9fvhs-create" class="proj-link" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="proj-card proj-card--wide">
+          <div class="proj-number">06</div>
+          <div class="proj-badge">Hakshith</div>
+          <h3 class="proj-title">ML Exploration Projects</h3>
+          <p class="proj-desc">A growing collection of Machine Learning experiments — data preprocessing pipelines, model training workflows on Google Colab, and applied AI explorations using Python-based ML libraries.</p>
+          <div class="proj-stack">
+            <span>Python</span><span>ML</span><span>Google Colab</span><span>Scikit-learn</span>
+          </div>
+          <div class="proj-links">
+            <a href="#" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 6 — EXPERIENCE & CERTS ═══ -->
+  <section class="xp section" id="experience">
+    <div class="container">
+      <div class="section-label">05 / Experience & Certs</div>
+      <h2 class="section-title">Credentials</h2>
+
+      <div class="xp-grid">
+        <div class="xp-col">
+          <h4 class="xp-col-title">💼 Experience</h4>
+          <div class="timeline">
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <span class="tl-date">Oct 2025 – Mar 2026</span>
+                <h5>Technology Virtual Internship</h5>
+                <p class="tl-company">Deloitte · Yagneshwar</p>
+                <p>Completed coding-based job simulation, solved real-world engineering problems, and gained understanding of software development workflows.</p>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <span class="tl-date">Ongoing</span>
+                <h5>External Relations Head</h5>
+                <p class="tl-company">HackOps Club, GITAM · Varshith</p>
+                <p>Managing external relations, outreach, and coordination for cybersecurity events including CTF competitions and Hackathons.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="xp-col">
+          <h4 class="xp-col-title">📜 Certifications</h4>
+          <div class="cert-list">
+            <div class="cert-card">
+              <div class="cert-icon">🏆</div>
+              <div>
+                <h5>Gen AI Exchange Program</h5>
+                <p>Google Cloud (Hack2Skill) · 2025 · Yagneshwar</p>
+                <small>Vertex AI, Prompt Engineering, Generative AI Fundamentals</small>
+              </div>
+            </div>
+            <div class="cert-card">
+              <div class="cert-icon">☁️</div>
+              <div>
+                <h5>AWS Cloud Practitioner</h5>
+                <p>Amazon Web Services · Hakshith · In Progress</p>
+                <small>Cloud Fundamentals, AWS Core Services</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SECTION 7 — CONTACT ═══ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label">06 / Contact</div>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-sub">Interested in collaborating, hiring, or just saying hello?</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-label">Yagneshwar</span>
+            <a href="mailto:gangoniyagneshwar03@gmail.com">gangoniyagneshwar03@gmail.com</a>
+            <a href="tel:+919849066493">+91 9849066493</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Varshith</span>
+            <a href="mailto:varshith9f.vhs@gmail.com">varshith9f.vhs@gmail.com</a>
+            <a href="tel:+918919771577">+91 8919771577</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Hakshith</span>
+            <a href="#">Via GitHub ↗</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project or idea..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message ✦</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">Context<span>Crew</span></span>
+        <p>GITAM University · Hyderabad · B.Tech CSE · 2024–2028</p>
+      </div>
+      <div class="footer-copy">
+        <p>© 2026 Context Crew. Built with ♥ and lots of coffee.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
